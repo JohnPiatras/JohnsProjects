@@ -88,4 +88,17 @@ height:100%;
     img{
         width:100%;
     }
+
+
+    h1{
+        font-size:48px;
+    }
+
+    h2{
+        font-size:40px;
+    }
+
+    p{
+        font-size:32px;
+    }
 }
