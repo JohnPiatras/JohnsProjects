@@ -35,6 +35,8 @@ body{
     overflow:hidden;
     text-overflow:ellipsis;
     padding-bottom:1em;
+    padding-left:1em;
+    padding-right:1em;
 }
 
 .right-image-container{
