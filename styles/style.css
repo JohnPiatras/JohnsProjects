@@ -34,6 +34,7 @@ body{
 .text-container{
     overflow:hidden;
     text-overflow:ellipsis;
+    padding-bottom:1em;
 }
 
 .right-image-container{
@@ -75,6 +76,7 @@ height:100%;
         height:auto;
         min-width:0px;        
         min-height:0;
+        margin-top:32px;
     }
             
     .right-image-container{
