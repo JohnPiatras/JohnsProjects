@@ -6,6 +6,7 @@ body{
 .content {
     display:inline-block;
     width:100%;
+    min-width:640px;
     margin:auto;
 }
 
@@ -18,7 +19,8 @@ body{
     margin-left:0;
     margin-right:0;
 
-    height:200px;
+    height:25vw;
+    min-height:150px;
 }
 
 .container{
@@ -66,9 +68,13 @@ height:100%;
 }
 
 @media only screen and (max-device-width: 480px) {
-    .content-slider {
+    .content{
         min-width:0px;
+    }
+    .content-slider {
         height:auto;
+        min-width:0px;        
+        min-height:0;
     }
             
     .right-image-container{
